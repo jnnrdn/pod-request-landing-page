@@ -1,0 +1,16 @@
+.logos {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+
+    img {
+      height: 17px;
+      width: auto;
+      filter: brightness(0) saturate(100%) invert(37%) sepia(67%) saturate(220%)
+        hue-rotate(186deg) brightness(93%) contrast(91%);
+    }
+  }
+}
