@@ -1,0 +1,11 @@
+h1 {
+  color: $primaryColor;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+  span {
+    color: $white;
+  }
+}
