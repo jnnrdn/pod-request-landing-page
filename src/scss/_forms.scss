@@ -1,0 +1,24 @@
+input {
+  display: block;
+  width: 100%;
+  border-radius: 28px;
+  height: 48px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 34px;
+  box-sizing: border-box;
+
+  &::placeholder {
+  }
+
+  &[type='email'] {
+    background-color: $dark-blue;
+    margin-bottom: 16px;
+  }
+
+  &[type='submit'] {
+    background-color: $primaryColor;
+    color: $background-color;
+  }
+}
