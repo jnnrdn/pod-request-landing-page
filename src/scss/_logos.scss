@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-around;
   padding-left: 0;
-  margin-bottom: 48px;
+  max-width: 315px;
+  margin: 0 auto 48px;
 
   li {
     list-style: none;
