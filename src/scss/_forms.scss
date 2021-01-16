@@ -1,5 +1,7 @@
 input {
-  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+
   width: 100%;
   border-radius: 28px;
   height: 48px;
@@ -10,12 +12,39 @@ input {
   box-sizing: border-box;
 
   &[type='email'] {
+    color: #fff;
     background-color: $dark-blue;
-    margin-bottom: 16px;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
   }
 
   &[type='submit'] {
     background-color: $primaryColor;
     color: $background-color;
   }
+
+  &:focus:invalid {
+    outline: none;
+  }
+}
+
+.error {
+  width: 100%;
+  display: block;
+  margin-bottom: 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: $red;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  line-height: 1;
+  padding: 5px 34px 5px;
+  margin-bottom: 16px;
 }
