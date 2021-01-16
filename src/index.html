@@ -43,11 +43,19 @@
             />
           </li>
         </ul>
-        <form action="#" method="get">
-          <input type="email" placeholder="Email address" />
+        <form novalidate>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Email address"
+            required
+          />
+          <span class="error" aria-live="polite"></span>
           <input type="submit" value="Request access" />
         </form>
       </main>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
