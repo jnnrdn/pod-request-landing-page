@@ -12,9 +12,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  margin: 0 1rem 38px;
-  color: $light-blue;
-  font-size: 15px;
-  line-height: 25px;
+main {
+  p {
+    margin: 0 1rem 25px;
+    color: $light-blue;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  @media screen and (min-width: $screen-size--small) {
+    max-width: 635px;
+    background-color: $background-color;
+    text-align: left;
+    padding-top: 100px;
+
+    p {
+      max-width: 445px;
+      margin: 40px 0;
+      font-size: 18px;
+    }
+  }
 }

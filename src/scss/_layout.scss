@@ -11,6 +11,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   filter: grayscale(80%);
+
+  @media screen and (min-width: $screen-size--small) {
+    content: none;
+  }
 }
 
 .container {
@@ -18,4 +22,21 @@
   height: 100vh;
   padding: 12px;
   box-sizing: border-box;
+
+  @media screen and (min-width: $screen-size--small) {
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    background-image: url(../assets/tablet/image-host.jpg),
+      url(../assets/desktop/bg-pattern-dots.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left 40px;
+  }
+}
+
+.bottom-container {
+  @media screen and (min-width: $screen-size--small) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

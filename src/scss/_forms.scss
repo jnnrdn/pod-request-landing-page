@@ -1,6 +1,17 @@
 form {
   max-width: 326px;
   margin: 0 auto;
+
+  @media screen and (min-width: $screen-size--small) {
+    margin: 0 auto 65px 0;
+    display: flex;
+    background-color: $dark-blue;
+    border-radius: 28px;
+    position: relative;
+    max-width: none;
+    width: 425px;
+    padding-right: 2px;
+  }
 }
 
 input {
@@ -23,11 +34,23 @@ input {
     &::placeholder {
       color: rgba(255, 255, 255, 0.5);
     }
+
+    @media screen and (min-width: $screen-size--small) {
+      flex-grow: 2;
+      height: 56px;
+    }
   }
 
   &[type='submit'] {
     background-color: $primaryColor;
     color: $background-color;
+
+    @media screen and (min-width: $screen-size--small) {
+      width: 162px;
+      height: 46px;
+      margin-top: 5px;
+      margin-right: 3px;
+    }
   }
 
   &:focus:invalid {
@@ -46,6 +69,11 @@ input {
   border-radius: 0 0 5px 5px;
 
   box-sizing: border-box;
+
+  @media screen and (min-width: $screen-size--small) {
+    position: absolute;
+    bottom: -40px;
+  }
 }
 
 .error.active {

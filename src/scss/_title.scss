@@ -8,4 +8,10 @@ h1 {
   span {
     color: $white;
   }
+
+  @media screen and (min-width: $screen-size--small) {
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 56px;
+  }
 }
