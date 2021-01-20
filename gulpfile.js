@@ -48,6 +48,10 @@ function js(cb) {
 }
 
 function images(cb) {
+  src(`${origin}/assets/*.+(png|jpg|gif|svg)`).pipe(
+    dest(`${destination}/assets`)
+  )
+
   src(`${origin}/assets/desktop/*.+(png|jpg|gif|svg)`).pipe(
     dest(`${destination}/assets/desktop`)
   )
