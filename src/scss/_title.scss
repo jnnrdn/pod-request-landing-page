@@ -9,7 +9,7 @@ h1 {
     color: $white;
   }
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     margin-top: 0;
     font-size: 48px;
     line-height: 56px;

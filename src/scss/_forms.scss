@@ -2,7 +2,7 @@ form {
   max-width: 326px;
   margin: 0 auto;
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     margin: 0 auto 65px 0;
     display: flex;
     background-color: $dark-blue;
@@ -35,7 +35,7 @@ input {
       color: rgba(255, 255, 255, 0.5);
     }
 
-    @media screen and (min-width: $screen-size--small) {
+    @media screen and (min-width: $screen-size--medium) {
       flex-grow: 2;
       height: 56px;
     }
@@ -45,7 +45,7 @@ input {
     background-color: $primaryColor;
     color: $background-color;
 
-    @media screen and (min-width: $screen-size--small) {
+    @media screen and (min-width: $screen-size--medium) {
       width: 162px;
       height: 46px;
       margin-top: 5px;
@@ -70,7 +70,7 @@ input {
 
   box-sizing: border-box;
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     position: absolute;
     bottom: -40px;
   }

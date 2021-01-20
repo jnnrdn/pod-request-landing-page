@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   filter: grayscale(80%);
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     content: none;
   }
 }
@@ -23,7 +23,7 @@
   padding: 12px;
   box-sizing: border-box;
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     display: flex;
     align-items: center;
     padding: 12px 40px;
@@ -35,7 +35,7 @@
 }
 
 .bottom-container {
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     display: flex;
     flex-direction: column-reverse;
   }

@@ -20,7 +20,7 @@ main {
     line-height: 25px;
   }
 
-  @media screen and (min-width: $screen-size--small) {
+  @media screen and (min-width: $screen-size--medium) {
     max-width: 635px;
     background-color: $background-color;
     text-align: left;
