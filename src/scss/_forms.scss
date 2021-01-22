@@ -44,6 +44,12 @@ input {
   &[type='submit'] {
     background-color: $primaryColor;
     color: $background-color;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #B3FFE2;
+    }
 
     @media screen and (min-width: $screen-size--medium) {
       width: 162px;
