@@ -13,6 +13,11 @@
     background-repeat: no-repeat;
     background-position: top right, bottom left 40px;
   }
+
+  @media screen and (min-width: $screen-size--large) {
+    background-image: url(../assets/desktop/image-host.jpg),
+    url(../assets/desktop/bg-pattern-dots.svg);
+  }
 }
 
 .container:before {
