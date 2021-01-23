@@ -14,4 +14,10 @@ h1 {
     font-size: 48px;
     line-height: 56px;
   }
+
+  @media screen and (min-width: $screen-size--large) {
+    margin-bottom: 0;
+    font-size: 52px;
+    line-height: 62px;
+  }
 }

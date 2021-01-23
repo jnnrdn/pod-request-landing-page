@@ -8,4 +8,11 @@ header {
     left: 40px;
     padding-top: 50px;
   }
+
+  @media screen and (min-width: $screen-size--large) {
+    padding: 0;
+    margin: -28px 0 0 0;
+    top: 0;
+    left: 0;
+  }
 }

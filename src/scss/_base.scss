@@ -10,6 +10,13 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media screen and (min-width: $screen-size--large) {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
 }
 
 main {
@@ -30,6 +37,21 @@ main {
       max-width: 445px;
       margin: 40px 0;
       font-size: 18px;
+
+      @media screen and (min-width: $screen-size--large) {
+        margin: 35px 0 45px;
+        padding: 0;
+      }
     }
+  }
+
+  @media screen and (min-width: $screen-size--large) {
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 723px;
+    height: 509px;
+    display: flex;
+    margin-bottom: 52px;
+    padding-top: 0;
   }
 }

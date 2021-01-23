@@ -15,8 +15,17 @@
   }
 
   @media screen and (min-width: $screen-size--large) {
-    background-image: url(../assets/desktop/image-host.jpg),
-    url(../assets/desktop/bg-pattern-dots.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    background-image: url(../assets/desktop/bg-pattern-dots.svg), url(../assets/desktop/image-host.jpg);
+    background-position: bottom right, top right;
+    max-width: 1275px;
+    max-height: 692px;
+    padding: 0;
+    margin-left: auto;
   }
 }
 
