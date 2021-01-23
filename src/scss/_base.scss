@@ -10,12 +10,15 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
+  margin: 0 auto;
 
   @media screen and (min-width: $screen-size--large) {
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 }
 
