@@ -1,3 +1,5 @@
+'use strict'
+
 const form = document.getElementsByTagName('form')[0]
 
 const email = document.getElementById('email')
@@ -13,12 +15,10 @@ form.addEventListener('submit', function (e) {
   }
 })
 
-function showError() {
+function showError () {
   if (email.validity.valueMissing) {
-    console.log('Value missing! ', email.validity.valueMissing)
     emailError.textContent = 'Oops! Please add your email'
   } else if (email.validity.typeMismatch) {
-    console.log('Wrong format! ', email.validity.typeMismatch)
     emailError.textContent = 'Oops! Please check your email'
   }
   // Set the styling appropriately
