@@ -19,7 +19,7 @@ body {
 
 main {
   p {
-    margin: 0 1rem 25px;
+    margin: 0 1rem;
     color: $light-blue;
     font-size: 15px;
     line-height: 25px;
@@ -37,7 +37,7 @@ main {
       font-size: 18px;
 
       @media screen and (min-width: $screen-size--large) {
-        margin: 24px 0 45px;
+        margin: 0 0 40px;
         padding: 0;
         line-height: 28px;
       }
