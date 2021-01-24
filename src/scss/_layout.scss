@@ -25,6 +25,7 @@
     max-width: 1275px;
     max-height: 692px;
     padding: 0;
+    margin-top: 130px;
     margin-left: auto;
   }
 }
@@ -39,7 +40,7 @@
   z-index: -1;
   opacity: 0.1;
   background-image: url(../assets/mobile/image-host.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(80%);
 
