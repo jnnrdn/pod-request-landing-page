@@ -16,5 +16,8 @@
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "gulp"
+  }
 }
