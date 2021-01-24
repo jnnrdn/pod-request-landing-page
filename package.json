@@ -18,6 +18,6 @@
   },
   "dependencies": {},
   "scripts": {
-    "gulp": "gulp"
+    "build": "gulp build"
   }
 }

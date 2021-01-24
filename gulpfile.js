@@ -92,3 +92,9 @@ exports.default = series(
   server,
   watcher
 )
+
+exports.build = series(
+  clean,
+  parallel(html, scss, js),
+  images
+)
