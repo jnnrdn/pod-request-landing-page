@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="container">
-      <header><img src="assets/desktop/logo.svg" /></header>
+      <header><img src="assets/desktop/logo.svg" alt="logo"/></header>
       <main>
         <h1>Publish your podcasts <span>everywhere.</span></h1>
         <p>
@@ -44,12 +44,13 @@
               />
             </li>
           </ul>
-          <form novalidate>
+          <form novalidate id="myEmail">
             <input
               id="email"
               name="email"
               type="email"
               placeholder="Email address"
+              aria-labelledby="myEmail email"
               required
             />
             <span class="error" aria-live="polite"></span>
