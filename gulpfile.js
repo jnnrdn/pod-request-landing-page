@@ -7,7 +7,7 @@ const sourcemaps = require('gulp-sourcemaps')
 const babel = require('gulp-babel')
 
 const origin = 'src'
-const destination = 'build'
+const destination = 'public'
 
 sass.compiler = require('node-sass')
 
