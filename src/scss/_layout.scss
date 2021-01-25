@@ -28,6 +28,10 @@
     margin-top: 130px;
     margin-left: auto;
   }
+
+  @media screen and (min-width: $screen-size--xlarge) {
+    margin-right: auto;
+  }
 }
 
 .container:before {
